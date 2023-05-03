@@ -1,0 +1,56 @@
+selflearnswe30
+自學軟工30天
+
+@ ui
+env setup
+js basic
+browser basic
+web api
+ui library
+react basic
+project 1
+project 2
+project 3
+
+@ service
+go dev env
+golang basic
+RESTful api
+database
+cache
+message queue
+unit test
+debug
+system design
+project1
+project2
+project3
+
+@ infra
+virtual machine
+docker
+docker-compose
+ci
+cd
+cloud
+project1
+project2
+project3
+project4
+
+
+@ coding 
+dev environment basic 
+coding basic
+data structure basic
+algorithm basic
+operating system basic
+network basic
+database basic
+
+@ skills
+english
+coding
+interview
+resume writing
+carrer plan
