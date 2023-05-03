@@ -104,7 +104,8 @@ yarn run build
 
 ## Step4: 部屬專案
 
-這邊為了學到核心概念, 先用一台nodejs server, 當作是雲端機器, 後面講過git後再來部屬到gitpage
+這邊為了簡化學習, 先用一台nodejs server模擬雲端機器
+等後面講過git了再來部屬到gitpage
 
 開個新檔案(我們回到上一層做server.js, 因為js有個require/esm的坑後面再提)：
 ```
@@ -127,7 +128,7 @@ const folderPath = path.resolve(__dirname,'proj','dist')
 // 建立server實體
 const server = express()
 
-// 讓server找的到資料夾(因為資料夾內會有很多檔案)
+// 讓 server 能夠供應指定資料夾底下的靜態檔案
 server.use(express.static(htmlPath))
 
 // 有請求進來, 就回傳index.html回去
